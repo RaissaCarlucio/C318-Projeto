@@ -31,18 +31,17 @@ Ele contém imagens de MRI classificadas em:
 - `notumor`
 
 Com estrutura dividida em **Training** e **Testing**:
-
 dataset/
 ├── Training/
-│ ├── glioma
-│ ├── meningioma
-│ ├── pituitary
-│ └── notumor
+│   ├── glioma/
+│   ├── meningioma/
+│   ├── pituitary/
+│   └── notumor/
 └── Testing/
-├── glioma
-├── meningioma
-├── pituitary
-└── notumor
+    ├── glioma/
+    ├── meningioma/
+    ├── pituitary/
+    └── notumor/
 
 
 👉 Para executar o notebook, basta baixar o dataset e colocar essas pastas dentro de `dataset/`.
